@@ -1,0 +1,130 @@
+/*Partes base del body*/
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: #faf19b;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #a2d4f4;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #a2d4f4;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #a2d4f4;
+}
+
+hr {
+  background-color: #182e4dff;
+  border: dotted #182e4dff 6px;
+  width: 100%;
+  border-bottom: 0;
+}
+
+
+/*Header--Navegación*/
+nav {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  background-color: #182e4dff;
+}
+.nav-item {
+  padding: 15px 30px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #a2d4f4;
+}
+.logogosy {
+  width: 100px;
+}
+
+
+/*Base del Main*/
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/01-lagrangosy/fondo.jpg");
+   /* Set a specific height */
+  height: 20%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  position: relative;
+}
+
+
+/*Sección La Gran Gosy*/
+.row {
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.col-lg-4 {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.dibujogosy{
+  width: 200px;
+}
+table {
+  border: 0;
+}
+.btn {
+  color: black;
+  background-color: #faf19b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.btn:hover {
+  color: black;
+  background-color: #a2d4f4;
+}
+.redes {
+  width: 35px;
+  background-color: #faf19b;
+  border-radius: 7px;
+}
+.redes:hover {
+  background-color: #a2d4f4;
+  border-radius: 7px;
+}
+
+
+/*Sección Quién es Gosy*/
+.circulo {
+  width: 300px;
+}
